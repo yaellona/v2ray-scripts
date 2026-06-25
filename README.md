@@ -18,7 +18,7 @@ winget install v2ray
 
 3. 复制到当前文件夹下，命名为v2ray-config.json。
 
-4. 在字段"inbounds"下添加:
+4. 在字段`inbounds`下添加:
 
 ```json
  "inbounds": [
@@ -33,6 +33,6 @@ winget install v2ray
   ],
 ```
 
-5. 最后在终端运行node .\v2ray-run.js start
+5. 最后在终端运行`node .\v2ray-run.js start`
 
-> 注意，如果直接ctrl+c或者关闭终端会导致系统无法联网，请在终端执行node .\v2ray-run.js stop后即可关闭系统代理，正常访问国内网络。
+> 注意，如果直接ctrl+c或者关闭终端会导致系统无法联网，请在终端执行`node .\v2ray-run.js stop`后即可关闭系统代理，正常访问国内网络。
